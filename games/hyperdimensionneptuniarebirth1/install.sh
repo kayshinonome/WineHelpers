@@ -1,8 +1,4 @@
-#!/bin/sh
-
-cd "${DIR%/*}" || exit 1
-echo $PWD
-sh ./common.sh
+#!/bin/bash
 
 rm -rf "$WINEPREFIX"
 mkdir -pv ~/.winehelpers
